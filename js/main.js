@@ -102,6 +102,31 @@ function main() {
 
     });
 
+    /*====================================
+    Choose vegan limit
+    ======================================*/
+    $('#vegan').click(function(){
+      console.log('!!!')
+      $('.share').show();
+    })
+
+    $('#regular').click(function(){
+      $('.share').hide();
+    })
+
+    $('.sell_submit').click(function(){
+      var r =confirm("Request accepted!!\nWe'll notify you when mean plan are sold");
+      if(r==true){
+        window.location.replace("choice.html");
+      }
+    })
+
+    $('.buy_submit').click(function(){
+      var r =confirm("You can use your new meal plan now\n Enjoy your life!");
+      if(r==true){
+        window.location.replace("choice.html");
+      }
+    })
 
 
 }());

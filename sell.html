@@ -55,7 +55,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <span class="white">remaining swipes:<b>56</b></span>
+            <span class="white">remaining meal plan:<b>56</b></span>
             <!-- <li><a href="#tf-home" class="page-scroll">Home</a></li> -->
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -73,16 +73,26 @@
                     </tr>
                     <tr class="login-row">
                         <td class="login-row">Amount to sell: </td>
-                        <td class="login-row"><input type="amount" name="amount"></td>
+                        <td class="login-row"><input type="amount" name="amount" class="text_black"></td>
                     </tr>
                      <tr class="login-row">
                         <td class="login-row">Vegan Limit?</td>
-                        <td class="login-row"><input type="radio" name="vegan" value="yes">Yes 
-                            <input type="radio" name="vegan" value="no">No</td>
+                        <td class="login-row"><input type="radio" name="vegan" id="vegan" value="yes">Yes 
+                            <input type="radio" name="vegan" id="regular" value="no">No</td>
+                    </tr>
+                    <tr class="login-row share">
+                        <td>Share your vegan experience</td>
+                        <td>
+
+                            <textarea>
+                            </textarea>
+                        </td>
+
                     </tr>
                     <tr class="login-row">
-                    <td><a class="button" href="choice.html">Submit</a></td>
-                    <td><a class="button" href="choice.html">Cancel</a></td></tr>
+                        <td><button class="button sell_submit">Submit</button></td>
+                        <td><a class="button" href="choice.html">Cancel</a></td>
+                    </tr>
                     
                 </table>
             </div>
