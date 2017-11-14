@@ -93,6 +93,9 @@ font-weight: 900;
 	font-size: 12px;
 	letter-spacing: 1px;
 }
+
+
+
 .on {
 	background-color: #222222 !important;
 	padding: 0 !important;
@@ -301,6 +304,18 @@ ul.about-list li span{
     margin-top: 40px;
     text-decoration: none;
 
+}
+
+.floatright{
+	float: right;
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 20%;
+	height: 300px;
+	margin-right: 30px;
+}
+
+.text_vertical_center{
+	padding: 140px 0px;
 }
 
 .white{

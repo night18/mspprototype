@@ -117,14 +117,14 @@ function main() {
     $('.sell_submit').click(function(){
       var r =confirm("Request accepted!!\nWe'll notify you when mean plan are sold");
       if(r==true){
-        window.location.replace("choice.html");
+        window.location.replace("choice2.html");
       }
     })
 
     $('.buy_submit').click(function(){
       var r =confirm("You can use your new meal plan now\n Enjoy your life!");
       if(r==true){
-        window.location.replace("choice.html");
+        window.location.replace("choice3.html");
       }
     })
 
