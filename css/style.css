@@ -308,7 +308,7 @@ ul.about-list li span{
 
 .floatright{
 	float: right;
-	background-color: rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 0.4);
 	width: 20%;
 	height: 300px;
 	margin-right: 30px;
